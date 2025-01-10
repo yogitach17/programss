@@ -1,0 +1,17 @@
+# Temporary
+*.bin
+*.elf
+*.DS_Store
+*.hex
+*.old
+*.bin
+
+ideas
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.embed
+build
+node_modules
+.vscode

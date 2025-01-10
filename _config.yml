@@ -1,0 +1,36 @@
+title: Hutscape
+description: Everyday practical home automation projects
+url: "https://hutscape.com"
+year: 2024
+markdown: kramdown
+permalink: /:title
+youtube: https://www.youtube.com/@sayanee
+paypal: https://www.paypal.com/ncp/payment/4JU23HRF65P66
+github:
+  repository_url: https://github.com/hutscape/hutscape.github.io
+  code_folder: https://github.com/hutscape/hutscape.github.io/tree/master/_tutorials/code/
+  demo_folder: https://github.com/hutscape/hutscape.github.io/tree/master/_tutorials/demo/
+exclude: [
+  _tutorials/code,
+  CNAME,
+  Gemfile,
+  Gemfile.lock,
+  LICENSE.md,
+  Makefile,
+  _tutorials/**/Makefile,
+  _tutorials/**/*.js,
+  README.md
+]
+collections:
+  tutorials:
+    output: true
+    permalink: /tutorials/:name
+  checklists:
+    output: true
+    permalink: /checklists/:name
+  tools:
+    output: true
+    permalink: /tools/:name
+  demo:
+    output: true
+    permalink: /demo/:name
